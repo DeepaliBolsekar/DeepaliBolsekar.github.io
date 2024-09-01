@@ -28,7 +28,7 @@ Logical diagrams provide a clear and concise visualization of network infrastruc
 8. **VPC**: A Virtual Private Cloud (VPC) is a private network within a public cloud infrastructure. It provides a secure and isolated environment for running applications and services.
 9. **Internet Gateway**: This is a network component that connects a VPC to the public internet, allowing resources within the VPC to communicate with external networks.
 
-![Desktop view](https://github.com/DeepaliBolsekar/DeepaliBolsekar.github.io/blob/main/assets/ChallengeDay-1.drawio.png){: width="500" height="200" }
+![Desktop view](/assets/ChallengeDay-1.drawio.png){: width="500" height="200" }
 
 
 
