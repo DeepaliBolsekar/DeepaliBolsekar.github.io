@@ -29,5 +29,5 @@ Logical diagrams provide a clear and concise visualization of network infrastruc
 9. **Internet Gateway**: This is a network component that connects a VPC to the public internet, allowing resources within the VPC to communicate with external networks.
 
 
-![Desktop view](assets\ChallengeDay-1.drawio.png){: width="500" height="200" }
+![Desktop view](){: width="500" height="200" }
 
