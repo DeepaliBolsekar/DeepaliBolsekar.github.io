@@ -7,39 +7,39 @@ tags: [soc_challenge,soc,cybersecurity,day3of30]
 
 # Elasticsearch Setup
 
-For this configuration, I utilized an AWS EC2 instance. To create the instance, I established a VPC, subnet, route table, and internet gateway, connecting them appropriately. The instance was launched with specific settings for its name, AMI, firewall, and subnet. While AWS was my choice, you can adapt this process to any cloud service provider that suits your needs.
-
-**Create a VPC:**
-
-- Name: MYDFIR SOC Challenge
-- IPv4 CIDR: 172.31.0.0/24
+1. For this configuration, I utilized Vultr cloud service. To create the instance, I established a VPC in nearest region.
     
-![VPC create](/assets/ELK-setup/vpc-create.png){: width="500" height="300" }
+    ![vpc-create-1.png](/assets/ELK-setup/vpc-create-1.png){: width="500" height="300" }
     
-
-**Configure Firewall Group:**
-
-Robust security settings are essential to ensure that only authorized individuals can access and utilize the service, mitigating potential risks.
-
-- Allow inbound traffic from your IP address to Elasticsearch and Kibana ports.
-- Enable remote access to the firewall group settings.
-
-**Launch EC2 Instance:**
-
-- Name: MYDFIR-ELK
-- AMI: Ubuntu 22.04 x64
-- Connect via SSH.
+2. Configure the network settings. I used IP range 172.31.0.0/24. Give a name to your VPC network and add the network by clicking on Add Network.
     
-![ec2-name.png](/assets/ELK-setup/ec2-name.png){: width="500" height="300" }
+    ![vpc-network-config.png](/assets/ELK-setup/vpc-network-config.png){: width="500" height="300" }
     
-
-![os-image-ubuntu.png](/assets/ELK-setup/os-image-ubuntu.png){: width="500" height="300" }
-
-![ec2-selectvpc.png](/assets/ELK-setup/os-image-ubuntu.png){: width="500" height="300" }
-
-![ec2-securitygroup(firewall-settings).png](/assets/ELK-setup/ec2-securitygroupfirewall-settings.png){: width="500" height="300" }
-
-![running-instance.png](/assets/ELK-setup/running-instance.png){: width="500" height="300" }
+3. Deploy the new server
+    
+    ![add-new-server.png](/assets/ELK-setup/add-new-server.png){: width="500" height="300" }
+    
+4. Choose type as dedicated CPU and same region as VPC.
+    
+    ![choose-type-mumbai.png](/assets/ELK-setup/choose-type-mumbai.png){: width="500" height="300" }
+    
+5. Choose Ubuntu 22.04 image for machine.
+    
+    ![choose-img-ubuntu.png](/assets/ELK-setup/choose-img-ubuntu.png){: width="500" height="300" }
+    
+6. Choose the plan suitable for elasticsearch 
+    
+    ![choose-plan-80gb.png](/assets/ELK-setup/choose-plan-80gb.png){: width="500" height="300" }
+    
+7. Choose the VPC we created for the elasticsearch server
+    
+    ![selected-vpc-for-instance.png](/assets/ELK-setup/selected-vpc-for-instance.png){: width="500" height="300" }
+    
+8. Don’t need the ssh key here for now, but give a name to your server
+    
+    ![deploy-instance.png](/assets/ELK-setup/deploy-instance.png){: width="500" height="300" }
+    
+9. Click the Deploy Now button and we successfully deployed our server.
 
 **Install Elasticsearch:**
 
