@@ -1,5 +1,5 @@
 ---
-title: "Day-1"
+title: "Day-1 Logical Diagram"
 date: 2024-09-01 
 categories: [MYDFIR 30Day SOC_Challenge]
 tags: [soc_challenge,soc,cybersecurity,day1of30]
@@ -29,6 +29,5 @@ Logical diagrams provide a clear and concise visualization of network infrastruc
 9. **Internet Gateway**: This is a network component that connects a VPC to the public internet, allowing resources within the VPC to communicate with external networks.
 
 ![Desktop view](/assets/ChallengeDay-1.drawio.png){: width="500" height="200" }
-
 
 

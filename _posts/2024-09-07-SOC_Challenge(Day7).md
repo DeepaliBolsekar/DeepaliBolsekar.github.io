@@ -1,12 +1,12 @@
 ---
-title: "Day-7"
+title: "Day-7 Fleet Server and Elastic Agent setup"
 date: 2024-09-07
 categories: [MYDFIR 30Day SOC_Challenge]
 tags: [soc_challenge,soc,cybersecurity,day7of30]
 ---
 
 
-
+![day-7](assets/day-7.png)
 
 We will continue with setting up fleet server and integrating it with elastic agent.
 Login to vultr account we created with login credentials.

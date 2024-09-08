@@ -1,11 +1,11 @@
 ---
-title: "Day-4"
+title: "Day-4 Kibana Setup"
 date: 2024-09-04
 categories: [MYDFIR 30Day SOC_Challenge]
 tags: [soc_challenge,soc,cybersecurity,day4of30]
 ---
 
-# Setting Up Kibana
+![day-4](assets/day-4.png)
 
 Alright, let's move on to setting up Kibana on our Day 3 adventure! Here's how we'll access the Kibana interface using your server's public IP:
 
@@ -167,3 +167,5 @@ Alright, let's move on to setting up Kibana on our Day 3 adventure! Here's how w
 - Now, you should be able to enjoy using the Kibana interface!
     
     ![api-integration-warning-gone.png](/assets/kibana/api-integration-warning-gone.png){: width="500" height="300" }
+
+

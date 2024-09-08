@@ -1,5 +1,5 @@
 ---
-title: "Day-2"
+title: "Day-2 ELK Stack Introduction"
 date: 2024-09-02 
 categories: [MYDFIR 30Day SOC_Challenge]
 tags: [soc_challenge,soc,cybersecurity,day2of30]
@@ -54,3 +54,4 @@ Imagine you’re a detective on a quest to solve a complex mystery, but instead 
 - **Beats/Agents:** Comparable to Splunk’s Universal Forwarder.
 
 In summary, ELK is your powerful ally in solving data mysteries. With its detective-like capabilities, it helps uncover the secrets hidden within your data, providing you with insights to crack the case wide open.
+

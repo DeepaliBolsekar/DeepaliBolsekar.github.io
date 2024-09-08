@@ -1,11 +1,12 @@
 ---
-title: "Day-3"
+title: "Day-3 Elasticsearch Setup"
 date: 2024-09-03
 categories: [MYDFIR 30Day SOC_Challenge]
 tags: [soc_challenge,soc,cybersecurity,day3of30]
 ---
 
-# Elasticsearch Setup
+
+![day-3](assets/day-3.png)
 
 1. For this configuration, I utilized Vultr cloud service. To create the instance, I established a VPC in nearest region.
     
@@ -95,3 +96,5 @@ To access Elasticsearch, we must activate and start the service after making the
 **Verify Service Status:**
 
 - Check if Elasticsearch is running: `systemctl status elasticsearch.service`
+
+

@@ -1,11 +1,11 @@
 ---
-title: "Day-5"
+title: "Day-5 Windows Server Installation"
 date: 2024-09-05
 categories: [MYDFIR 30Day SOC_Challenge]
 tags: [soc_challenge,soc,cybersecurity,day5of30]
 ---
 
-# Windows Server 2022 Installation
+![day-5](assets/day-5.png)
 
 **Today, we'll focus on creating our Windows server as a target machine.** This server will play a crucial role in our simulated attack scenarios, following the logic diagram we established on Day 1.
 
@@ -70,3 +70,5 @@ tags: [soc_challenge,soc,cybersecurity,day5of30]
         
 
 **That's it for today!** We've successfully deployed the Windows server. In the next blog post, we'll focus on configuring it for its role in our simulated attacks.
+
+
