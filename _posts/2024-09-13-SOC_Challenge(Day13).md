@@ -7,8 +7,6 @@ tags: [soc_challenge,soc,cybersecurity,day13of30]
 
 
 
-
-
 On day 12 we sucessfully installed the Ubuntu server 24.04 and now that we've successfully set up our Ubuntu 24.04 server, let's proceed with installing the Fleet agent. Let’s start with loging to our vultr account and starting the machines.
 
 - Go to elasticsearch and login to your account. Click on hamburger icon and under Management select Fleet.
