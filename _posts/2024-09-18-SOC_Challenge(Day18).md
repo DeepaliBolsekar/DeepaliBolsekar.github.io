@@ -24,7 +24,7 @@ Here's a breakdown of what typically happens from an attacker's perspective:
 5. **Data Collection:** The malicious software on your device can start collecting information about you and your system. This might include your browsing history, login credentials, credit card details, or even your location.
 6. **Exfiltration:** The collected data is then sent back to the attacker's servers, where it can be analyzed and exploited for further attacks or sold on the dark web.
 
-![day-18-comic](assets\day-18-comic-scene.png){: width="500" height="300" }
+![day-18-comic](/assets/day-18-comic-scene.png){: width="500" height="300" }
 
 ### What is C2? 🤔
 
