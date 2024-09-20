@@ -6,7 +6,7 @@ tags: [soc_challenge,soc,cybersecurity,day20of30]
 ---
 
 
-![day-20-cover](assets\Mythic-setup\day-20-cover.png){: width="500" height="300" }
+![day-20-cover](/assets/Mythic-setup/day-20-cover.png){: width="500" height="300" }
 
 Let's put our knowledge to the test and build our very own Mythic C2 server! First, we'll log into Vultr cloud using our credentials. 
 
