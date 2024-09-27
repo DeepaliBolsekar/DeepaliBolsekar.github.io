@@ -1,5 +1,5 @@
 ---
-title: "Day-26&27 Brute Force Attack Investigation"
+title: "Day-27 Brute Force Attack Investigation"
 date: 2024-09-27
 categories: [MYDFIR 30Day SOC_Challenge]
 tags: [soc_challenge,soc,cybersecurity,day26of30, day27of30]
