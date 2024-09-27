@@ -98,4 +98,4 @@ Success! The integration was a breeze. Head over to the OSticket Agent Panel to 
 
 ![ticket-created.png](/assets/ticket&elk-integration/ticket-created.png){: width="500" height="300" }
 
-We've successfully completed our environment setup. Next, we'll dive into log analysis. Stay tuned for more!
+We've successfully completed our environment setup. Stay tuned for more!
