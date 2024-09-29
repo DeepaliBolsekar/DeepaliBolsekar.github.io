@@ -127,4 +127,4 @@ Endpoint Detection and Response (EDR) is a security solution that monitors and r
 
 - This testing confirms that our response is working effectively. This is our Security Operations Center (SOC) environment, which will help us collect and analyze logs, alerts, and endpoint detection and response.
 
-Today, the SOC Analyst Challenge is complete. For the last day, I'll focus on troubleshooting and summarizing the 30-day journey to recap what I've accomplished in this challenge.
+The MYDFIR SOC Analyst Challenge is nearing completion. For the last day, I'll focus on troubleshooting and summarizing the 30-day journey to recap what I've accomplished in this challenge.
